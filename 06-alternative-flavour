@@ -1,0 +1,8 @@
+// const items = [ "item1", "item2"]
+module.exports.items = ["item1", "item2"];
+const person = {
+  name: "bob",
+};
+//second way to export is to go directly witrh module.exports.(name of const) instead of const
+//thirth way is to go with
+module.exports.singlePerson = person;
